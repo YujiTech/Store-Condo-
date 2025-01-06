@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Oleo+Script:wght@400;700&family=SUSE:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@media (max-width: 576px) {
+  .offcanvas {
+    width: 85% !important;
+  }
+}
+.sans-serif {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.merienda-font{
+  font-family: "Merienda", cursive;
+}
+.text-hover:hover {
+  color: rgb(0, 255, 255) !important;
+  transform: scale(1.1);
+  text-shadow: 0px 0px 1px black;
+}
+.Oleo-font {
+  font-family: "Oleo Script", system-ui;
+}
+.acticle p{
+  font-size: clamp(12px, 3.4vw, 18px);
+}
+.acticle h1{
+  font-size: clamp(35px, 3.7vw, 100px);
+  font-weight: bold;
+  text-shadow: 0px 0px 4px black;
+}
+.text-limit{
+  overflow: hidden;
+   display: -webkit-box;
+   -webkit-line-clamp: 3; /* number of lines to show */
+           line-clamp: 3; 
+   -webkit-box-orient: vertical;
+}
+
+
